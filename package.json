@@ -1,0 +1,37 @@
+{
+  "name": "eslint-plugin-yoast",
+  "version": "1.0.0",
+  "description": "An ESLint plugin to provide custom rules necessary for the ESLint config",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Team Yoast <support@yoast.com",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~2.6.0",
+    "mocha": "^2.4.5"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "GPL-3.0",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yoast/eslint-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Yoast/eslint-plugin/issues"
+  },
+  "homepage": "https://github.com/Yoast/eslint-plugin#readme"
+}
