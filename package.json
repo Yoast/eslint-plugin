@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-yoast",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An ESLint plugin to provide custom rules necessary for the ESLint config",
   "keywords": [
     "eslint",
