@@ -33,6 +33,9 @@ ruleTester.run("comment-starting-capital", rule, {
         {
             code: "/** @package packageName */"
         },
+        {
+            code: "/* global: aglobal */"
+        },
 
         // Require lowercase letters:
         {
@@ -45,6 +48,10 @@ ruleTester.run("comment-starting-capital", rule, {
         },
         {
             code: "/**\n * this is a comment. */",
+            options: ["never"]
+        },
+        {
+            code: "/* global: aglobal */",
             options: ["never"]
         }
     ],
